@@ -1,0 +1,101 @@
+/*General*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*#clothes-choices{
+    padding: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}*/
+
+.shop{
+    margin-top: 25px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4,200px);
+    gap: 30px;
+}
+
+@media (max-width: 1000px){
+    .shop{
+        grid-template-columns: repeat(2,200px);
+    }
+}
+
+@media (max-width: 500px){
+    .shop{
+        grid-template-columns: repeat(1,200px);
+    }
+}
+
+
+/*_____________________________________________*/
+
+.clothes-content{
+    width:200px;
+    height: 375px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.clothes-content:hover{
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+}
+
+.clothes-description{
+    padding: 5px;
+}
+
+.clothes-price-quantity{
+    padding:5px;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clothes-quantity{
+    margin-right: 5px;
+    margin-top: 10px;
+    width:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bi-plus-square{
+    color:green;
+}
+
+.bi-dash-square{
+    color:red;
+}
+
+.nb-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nb-items i{
+    margin: 3px;
+}
+
+.clothes-img img{
+    align-items: center;
+    width: 194px;
+    height: 200px;
+}
+

@@ -8,11 +8,16 @@ body{
     font-family: sans-serif;
 }
 
+nav i{
+    cursor: pointer;
+}
+
 nav{
     /*z-index: 1;
     position: fixed;
     overflow-x: auto;
     overflow-y: hidden;*/
+    align-items: center;
     padding: 25px;
     background-color: rgb(10, 147, 147);
     display: flex;
@@ -60,7 +65,7 @@ nav a{
     color: rgb(10, 147, 147);    
 }
 
-.cartAmount{
+.cart-amount{
     position: absolute;
     top:-15px;
     right: -10px;

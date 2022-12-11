@@ -1,0 +1,61 @@
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clothes-btn, .checkout, .clear-cart{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.title-price-x{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.cart-item-price{ 
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+
+.bi-x-square-fill{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,360px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.cart-item{
+    border: 2px solid 212529;
+    border-radius: 5px;
+    display: flex;
+}
+
+.checkout{
+    background-color: green;
+}
+
+.clear-cart{
+    background-color: red;
+}

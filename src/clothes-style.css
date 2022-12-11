@@ -10,18 +10,13 @@ body{
     font-family: sans-serif;
 }
 
-/*#clothes-choices{
-    padding: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-}*/
-
 .shop{
     margin-top: 25px;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(4,200px);
     gap: 30px;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 1000px){
@@ -38,19 +33,22 @@ body{
 
 
 /*_____________________________________________*/
-
-.clothes-content{
-    width:200px;
-    height: 375px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
+.shop i{
+    cursor: pointer;
 }
 
-.clothes-content:hover{
-    box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+.item{
+    border: 2px solid #212529;
+    border-radius: 4px;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+}
+
+.item:hover{
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);
 }
 
 .clothes-description{

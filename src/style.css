@@ -12,6 +12,18 @@ nav i{
     cursor: pointer;
 }
 
+#homenav{
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(10, 147, 147);
+}
+
+#homenav h1{
+    color: white;
+    padding: 10px;
+}
+
 nav{
     /*z-index: 1;
     position: fixed;
@@ -47,15 +59,6 @@ nav a{
     text-decoration: none;
 }
 
-.nav-right{
-
-}
-
-
-.nav-left{
-    
-}
-
 .cart{
     position: relative;
     border-radius: 5px;
@@ -74,4 +77,48 @@ nav a{
     color: white;
     padding: 3px;
     border-radius: 5px;
+}
+
+#home-deco{
+    position: absolute;
+    top: 25;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.first-col img, .third-col img{
+    width:fit-content;
+    height: 400px;
+}
+
+.first-col{
+    position: absolute;
+    left:0%;
+    right: 66.66%;
+} 
+.second-col{
+    position: absolute;
+    left:33.33%;
+    right: 33.33%;
+}
+.third-col{
+    position: absolute;
+    left: 66.66%;
+    right:0%;
+}
+
+.second-col img{
+    width: 600px;
+    height: 800px;
+}
+
+.home-to-mall-btn{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 46%; 
+    padding: 20px; 
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
 }

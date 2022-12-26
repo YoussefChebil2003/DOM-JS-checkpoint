@@ -97,3 +97,19 @@ body{
     height: 200px;
 }
 
+.like{
+    justify-content: center;
+}
+
+.bi-heart{
+    margin: 43%;
+    color: red;
+    font-size: 25px;
+}
+
+.bi-heart-fill{
+    margin: 43%;
+    color: red;
+    font-size: 30px;
+    box-shadow: #212529;
+}
